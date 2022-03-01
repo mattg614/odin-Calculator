@@ -1,3 +1,16 @@
+:root {
+    --vampire-black : #0d0208;
+    --dark-green : #003b00;
+    --islamic-green : #008F11; 
+    --malachite : #00FF41;
+
+}
 body {
     background-color: aquamarine;
+}
+
+.screen {
+    border: 2px solid white;
+    background-color: var(--vampire-black);
+    color: var(--malachite);
 }
