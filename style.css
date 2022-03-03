@@ -33,6 +33,7 @@ body {
     grid-gap: 15px;
     
     
+    
 
 }
 .screen {grid-area: screen; }
@@ -63,10 +64,12 @@ body {
     display:flex;
     justify-content: flex-end;
     align-items: flex-end;
-
+    overflow: hidden;
 }
 .screen-nums {
     padding-right:5px;
+    font-size: 7vh;
+    
 }
 button {
     font-size: 5vh;
