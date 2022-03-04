@@ -78,11 +78,26 @@ button {
 }
 .operator-left {
     margin-left: 10px;
+    background-color: rgb(224, 17, 231);
 }
 .operator-right {
     margin-right: 10px;
+    background-color:rgb(65, 90, 228)
 }
 
+.num-button {
+    background-color:var(--islamic-green)
+}
 .bottom {
     margin-bottom: 5px;
 }
+
+
+
+button:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
